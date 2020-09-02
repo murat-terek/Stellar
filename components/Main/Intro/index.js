@@ -12,15 +12,17 @@ const Intro = () => {
 
 	return pug`
     View.intro
-      View.border
-        Image.img(source={uri: '/main/tel.jpg'})
-      View.top
-        Title(value='Ipsum sed adipiscing')
-      View.line
-        ColLine
-      Text.txt Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus. Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.
-      View.viewBut
-        Button(title='Learn More' onPress=handleClick)
+      View.right
+        View.border
+          Image.img(source={uri: '/main/tel.jpg'})
+      View.left
+        View.top
+          Title(value='Ipsum sed adipiscing')
+        View.line
+          ColLine
+        Text.txt Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus. Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.
+        View.viewBut
+          Button(title='Learn More' onPress=handleClick)
   `
 }
 

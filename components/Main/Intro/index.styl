@@ -1,5 +1,19 @@
 .intro
   align-items center
+  +desktop()
+    flex-direction row
+
+.left
+  align-items center
+  +desktop()
+    order 1
+    align-items flex-start
+    flex-shrink 1
+    padding-right 4u
+
+.right
+  +desktop()
+    order 2
 
 .border
   border-radius 50%
@@ -11,7 +25,6 @@
   +tablet()
     height 35u
     width 35u
-    margin-top 2u
    
 .img
   border-radius 50%
@@ -23,6 +36,8 @@
 
 .top
   margin-top 4u
+  +desktop()
+    margin-top 0
 
 .line
   margin-top 3u
@@ -34,6 +49,8 @@
   text-align center
   font-weight 300
   margin-top 4u
+  +desktop()
+    text-align left
 
 .viewBut
   width 100%

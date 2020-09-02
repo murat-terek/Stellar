@@ -8,8 +8,11 @@ import Link from '../Base/Link'
 const Footer = () => {
 	return pug`
     View.footer
-      First
-      Info
+      View.container
+        View.column
+          First
+        View.column
+          Info
       Text.txt © Untitled. Design: 
         Link(href='https://www.google.com/')
           Text.link HTML5 UP

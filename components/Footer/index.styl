@@ -2,12 +2,26 @@
   padding 0 2u 7u
   +tablet()
     padding 0 6u 7u
+  +desktop()
+    align-items center
+
+.container
+  +desktop()
+    flex-direction row
+
+.column
+  +desktop()
+    flex-shrink 1
+    width: 50%
+    padding 0 2u
 
 .txt
   font-size 1.5u
   line-height 2u
   color rgba(255, 255, 255, 0.65)
   margin-top 6u
+  +desktop()
+    margin-top 10u
 
 .link
   line-height 1.5u
