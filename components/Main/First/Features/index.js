@@ -1,6 +1,7 @@
 import React from 'react'
 import { View } from 'react-native'
 import Feature from '../Feature'
+import './index.styl'
 
 const features = [
   {

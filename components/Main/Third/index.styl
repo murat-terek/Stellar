@@ -2,19 +2,29 @@
   align-items center
 
 .line
-  margin-top 2u
+  margin-top 3u
 
 .txt
-	text-align center
-	font-size 2u
-	line-height 3u
-	margin-top 3u
-	font-weight 300
-	color rgb(99, 99, 99)
+  text-align center
+  font-size 2u
+  line-height 3u
+  margin-top 3u
+  font-weight 300
+  color rgb(99, 99, 99)
+  +tablet()
+    margin-top 4u
+    font-size 2.5u
+    line-height 4u
 
 .btns
   width 100%
   margin-top 2u
+  +tablet()
+    flex-direction row
+    justify-content center
+    margin-top 6u
 
 .btn
   margin-top 2u
+  +tablet()
+    margin 0 1u

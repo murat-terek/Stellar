@@ -2,7 +2,7 @@ import React from 'react'
 import { View } from 'react-native'
 import './index.styl'
 
-const ColLine = (props) => {
+const ColLine = () => {
 	return pug`
     View.line
   `

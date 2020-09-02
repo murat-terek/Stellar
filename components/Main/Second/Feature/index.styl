@@ -1,10 +1,14 @@
 .feature
   padding 3u
   align-items center
+  flex 1
 
 .img
   width 12u
   height 12u
+  +tablet()
+    width 6u
+    height 6u
 
 .count
   color white
@@ -12,10 +16,15 @@
   font-size 5u
   line-height 6u
   letter-spacing -1px
+  +tablet()
+    font-size 3u
+    line-height 5u
 
 .title
   font-size 2u
   color white
   font-weight 300
   line-height 4u
+  +tablet()
+    line-height 2u
   

@@ -8,7 +8,7 @@ import './index.styl'
 const Info = () => {
 	return pug`
     View.info
-      Title(value='Etiam feugiat' white)
+      Title(value='Etiam feugiat' white small)
       ConnectInfo
       Socials
   `

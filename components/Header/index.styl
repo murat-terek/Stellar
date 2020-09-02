@@ -15,7 +15,7 @@
   width 4u
 
 .title
-  font-size 5u
+  font-size 5.5u
   font-weight 300
   color white
   line-height 6u
@@ -27,7 +27,17 @@
   color rgba(255, 255, 255, 0.65)
   text-align center
   margin-top 1u
+  max-width 47u
+  +tablet()
+    max-width 55u
+    font-size 2.5u
+    line-height 4u
+    margin-top 2u
+    font-weight 300
+    
 
 .link
   line-height 2u
   border-bottom 1px dotted rgba(255, 255, 255, 0.65)
+  +tablet()
+    line-height 3u

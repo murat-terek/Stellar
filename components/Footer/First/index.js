@@ -11,9 +11,9 @@ const First = () => {
 
 	return pug`
     View.first
-      Title(value='Aliquam sed mauris' white)
+      Title(value='Aliquam sed mauris' white small)
       Text.txt Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.
-      View.btn
+      View.btnView
         Button(title='Learn More' onPress=handleClick white )
   `
 }
