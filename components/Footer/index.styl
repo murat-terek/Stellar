@@ -4,6 +4,9 @@
     padding 0 6u 7u
   +desktop()
     align-items center
+  +wide()
+    padding 0 6u 18u
+    margin-top 6u
 
 .container
   +desktop()
@@ -14,6 +17,8 @@
     flex-shrink 1
     width: 50%
     padding 0 2u
+  +wide()
+    padding 0 6u
 
 .txt
   font-size 1.5u
@@ -22,7 +27,12 @@
   margin-top 6u
   +desktop()
     margin-top 10u
+  +wide()
+    font-size 2u
+    margin-top 12u
 
 .link
   line-height 1.5u
   border-bottom 1px dotted rgba(255, 255, 255, 0.65)
+  +wide()
+    line-height 3u

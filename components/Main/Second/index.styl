@@ -3,6 +3,8 @@
 
 .line
   margin-top 3u
+  +wide()
+    margin-top 5u
 
 .txt
   text-align center
@@ -16,6 +18,11 @@
     margin-top 4u
     font-size 2.5u
     line-height 4u
+    +wide()
+      margin-top 6u
+      font-size 3u
+      line-height 6u
+      max-width 95u
 
 .description
   text-align justify
@@ -29,6 +36,10 @@
   +desktop()
     column-count 2
     column-gap 4u
+  +wide()
+    font-size 2.5u
+    font-weight 200
+    line-height 4u
 
 .viewBut
   width 100%
@@ -36,3 +47,5 @@
   +tablet()
     width auto
     margin-top 6u
+    +wide()
+      margin-top 8u

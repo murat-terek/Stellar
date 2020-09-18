@@ -10,6 +10,8 @@
     align-items flex-start
     flex-shrink 1
     padding-right 4u
+    +wide()
+      padding-right 15u
 
 .right
   +desktop()
@@ -25,6 +27,9 @@
   +tablet()
     height 35u
     width 35u
+  +wide()
+    height 49u
+    width 49u
    
 .img
   border-radius 50%
@@ -33,6 +38,9 @@
   +tablet()
     height 32u
     width 32u
+  +wide()
+    height 45u
+    width 45u
 
 .top
   margin-top 4u
@@ -41,6 +49,8 @@
 
 .line
   margin-top 3u
+  +wide()
+    margin-top 5u
 
 .txt
   font-size 2u
@@ -51,9 +61,16 @@
   margin-top 4u
   +desktop()
     text-align left
+  +wide()
+    font-size 2.5u
+    line-height 5u
+    font-weight 200
+    margin-top 6u
 
 .viewBut
   width 100%
   margin-top 4u
   +tablet()
     width auto
+  +wide()
+    margin-top 5u

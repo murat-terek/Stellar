@@ -4,6 +4,8 @@
 .row
   flex-direction row
   margin-top 2u
+  +wide()
+    margin-top 3u
 
 .title
   width 11u
@@ -12,13 +14,20 @@
   flex-shrink 0
   flex-grow 0
   line-height 3u
+  +wide()
+    width 15u
+    font-size 2.5u
 
 .text
   color rgba(255, 255, 255, 0.65)
   font-size 2u
   line-height 3u
   font-weight 300
+  +wide()
+    font-size 2.5u
 
 .link
   line-height 2u
   border-bottom 1px dotted rgba(255, 255, 255, 0.65)
+  +wide()
+    line-height 3u
